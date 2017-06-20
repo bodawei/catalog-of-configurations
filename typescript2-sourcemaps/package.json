@@ -1,0 +1,13 @@
+{
+  "name": "typescript2-sourcemaps",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+     "tsc": "tsc"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^2.3.4"
+  }
+}
