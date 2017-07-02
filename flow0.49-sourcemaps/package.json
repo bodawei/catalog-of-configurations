@@ -1,0 +1,16 @@
+{
+  "name": "flow0.49",
+  "version": "1.0.0",
+  "description": "A simple demonstration of setting up flow",
+  "scripts": {
+    "build": "babel source/ --source-maps -d transpiled/",
+    "flow": "flow"
+  },
+  "author": "柏大衛",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "6.24.1",
+    "babel-preset-flow": "6.23.0",
+    "flow-bin": "0.49.1"
+  }
+}
