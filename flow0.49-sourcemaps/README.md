@@ -43,7 +43,7 @@ Examining source maps
 
 ## Notes
 * Flow runs a server in the background. This keeps some state of your project in memory so it can respond to changes more quickly.
-* The flow server will take an ***incredible*** amount of time to start up (seriously, do it before going to lunch. I've had it take an hour). Fortunately, it is fast thereafter. 
+* The flow server can take a long time to start up, but if it takes more than a minute or two, it is probably because it is trying to read everything in your node_modules. Try to ignore things in your `.flowconfig` file. Fortunately, it is fast thereafter. 
 * The flow server doesn't seem to have a 'watch' mode, which means you need to run it by hand to get checks
 * However, some editors apparently provide support for showing flow errors while you are editing.
 
