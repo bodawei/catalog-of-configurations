@@ -1,0 +1,13 @@
+{
+  "name": "flow0.49-vscode",
+  "version": "1.0.0",
+  "description": "A simple demonstration of getting flow to work with VS Code",
+  "author": "柏大衛",
+  "license": "MIT",
+  "scripts": {
+    "flow": "flow"
+  },
+  "dependencies": {
+    "flow-bin": "0.49.1"
+  }
+}
