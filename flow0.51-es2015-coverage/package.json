@@ -1,0 +1,23 @@
+{
+  "name": "flow0.51-coverage",
+  "version": "1.0.0",
+  "description": "A simple demonstration of getting code coverage to work with flow and es2015 code",
+  "scripts": {
+    "build": "babel source/ --source-maps -d transpiled/",
+    "cover": "NODE_ENV=test nyc --reporter=html --reporter=text mocha source/*.test.js",
+    "flow": "flow"
+  },
+  "author": "柏大衛",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "6.24.1",
+    "babel-plugin-istanbul": "^4.1.4",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "6.23.0",
+    "babel-register": "^6.24.1",
+    "chai": "^4.1.0",
+    "flow-bin": "0.51.0",
+    "mocha": "^3.4.2",
+    "nyc": "^11.1.0"
+  }
+}

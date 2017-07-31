@@ -13,3 +13,5 @@ If you stumble across this, and find it useful, let me know. Even better, if you
 	* Demonstrates setting up TypeScript 2.3 so that it generates code that can be debugged with the right source line information in the browsers.
 * [Flow 0.49 with sourcemaps](./flow0.49-sourcemaps)
 	* Demonstrates setting up Flow 0.49 so that it does type checking and also generates code that can be debugged with the right source line information in the browsers.
+* [Flow 0.51 in ES2015 code and code coverage](./flow0.51-es2015-coverage)
+	* Demonstrates getting code coverage information from running tests with source code that is es2015 with flow annotations.
