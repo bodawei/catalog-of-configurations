@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "tsc": "tsc",
-    "karma": "karma"
+    "karma": "karma start"
   },
   "author": "",
   "license": "MIT",
@@ -13,11 +13,8 @@
     "jasmine-core": "2.8.0",
     "karma": "1.7.1",
     "karma-chrome-launcher": "2.2.0",
+    "karma-jasmine": "1.1.0",
     "karma-typescript": "3.0.5",
-    "nyc": "11.1.0",
     "typescript": "2.5.2"
-  },
-  "devDependencies": {
-    "karma-jasmine": "1.1.0"
   }
 }

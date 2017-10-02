@@ -1,10 +1,11 @@
 {
    "compilerOptions": {
+      "allowJs": true,
       "target": "es5",
       "sourceMap": true,
       "outDir": "./temp/typescript"
    },
    "include": [
-      "source/**/*"
+      "source"
    ]
 }
