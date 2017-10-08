@@ -66,6 +66,13 @@ module.exports = function(config) {
       // https://www.npmjs.com/package/karma-typescript
       karmaTypescriptConfig: {
          tsconfig: "./tsconfig.json",
+         bundlerOptions: {
+            sourceMap: true,
+         },
+         coverageOptions: {
+            // Exclude both .js an .ts test files from the coverage reports
+            exclude: /\.(d|spec|test)\.(ts|js)$/i
+         },
          reports: {
             "html": "./temp/coverage/html-report",
             "json": "./temp/coverage/json-report"
