@@ -9,6 +9,7 @@ This is intended as a demonstration of working with JavaScript and TypeScript in
 * node 8.1.0
 * Karma 1.7.1
 * karma-typescript: 3.0.5
+* karma-typescript-es6-transform 1.0
 
 ## To Do
 * From your terminal, make sure you are in the directory where this readme is found.
@@ -17,12 +18,12 @@ This is intended as a demonstration of working with JavaScript and TypeScript in
 * Look at the output in the `./temp` directory
 
 ## Notes
-The keys to making this work is the 'karma-typescript' package, which provides the functionality needed to process TypeScript and deliver it to both Karma and coverage.
+The key to making this work is the `karma-typescript` package, which provides the functionality needed to process TypeScript and deliver it to both Karma and coverage.
 
 One must specify the `allowJs` flag in the `.tsconfig.json` file, or this will not work.
 
-Note also that for reasons I do not yet understand, JavaScript test files show up in the coverage output, but TypeScript test files do not.
+The `karma-typescript-es6-transform` package is used by `karma-typescript` to use babel to transform whatever JavaScript to the right form to deliver to the browser.
 
 ## Resources
 * https://www.npmjs.com/package/karma-typescript
-* https://github.com/adrianmarinica/karma-typescript-angularjs-sample This project helped a lot. Note, though, that it suffers the same limitation about test files (it just happens to only be using TypeScript for test code)
+* https://github.com/adrianmarinica/karma-typescript-angularjs-sample This project helped a lot.

@@ -1,3 +1,5 @@
+import { jsGreeter } from './jsCode.js';
+
 describe('jsCode.jsGreeter', function() {
 
       it('does something wonderful', function() {

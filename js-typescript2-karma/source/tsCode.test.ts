@@ -1,3 +1,5 @@
+import { tsGreeter } from './tsCode';
+
 describe('jsCode.jsGreeter', () => {
 
    it('does something wonderful', () => {

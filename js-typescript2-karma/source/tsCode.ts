@@ -13,12 +13,4 @@ function tsGreeter(person: Person) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
 
-const user = {
-   firstName: "TypeScript",
-   lastName: "User"
-};
-
-const ts = document.querySelector('.ts');
-if (ts) {
-   ts.innerHTML = tsGreeter(user);
-}
+export { tsGreeter };
